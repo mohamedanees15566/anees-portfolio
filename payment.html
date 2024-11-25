@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="payment.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <div class="payment-container">
+        <h1>Secure Payment</h1>
+        <form action="process_payment.php" method="POST" id="paymentForm">
+            <div class="input-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Full Name">
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="xxxxxe@gmail.com">
+            </div>
+
+            <div class="input-group">
+                <label for="cardNumber">Credit Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" required placeholder="+94 ******963" maxlength="10">
+            </div>
+
+            <div class="input-group">
+                <label for="expiryDate">Expiry Date (MM/YY):</label>
+                <input type="text" id="expiryDate" name="expiryDate" required placeholder="MM/YY">
+            </div>
+
+            <div class="input-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required placeholder="***" maxlength="3">
+            </div>
+
+            <div class="input-group">
+                <label for="amount">Amount to Pay:</label>
+                <input type="number" id="amount" name="amount" required placeholder="LK" step="0.01">
+            </div>
+
+            <button type="submit" id="submitButton" onclick="paymentsubmit()">Pay Now</button>
+        </form>
+        <div class="form-footer">
+            <p>Your payment is secure with SSL encryption.</p>
+        </div>
+    </div>
+
+    <script src="payment.js"></script> <!-- Link to external JS file -->
+</body>
+</html>

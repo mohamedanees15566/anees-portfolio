@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!-- css link -->
+    <link href="/style.css" rel="stylesheet" type="text/css">
+
+    <!--link goole font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--googel icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1> Nostra </h1>
+
+        <div class="links">
+            <p class="link">
+                <a href="/index.html">Home</a>
+            </p>
+            <p class="link">
+                <a href="/collction.html">Collction</a>
+            </p>
+            <p class="link">
+                <a href="/contact.html">Contact</a>
+            </p>
+        </div>
+
+        <div class="menu-toggel" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-linls">
+            <p class="side-link">
+                <a href="/index.html">Home</a>
+            </p>
+            <p class="side-link">
+                <a href="/collction.html">Collction</a>
+            </p>
+            <p class="side-link">
+                <a href="/contact.html">Contact</a>
+            </p>
+        <div>
+
+    </div>
+
+        -->
+
+<!--cetalog card-->
+
+    <div  class="cetalog">
+        <div class="cetalog-img">
+           <img src="/Images/one 1.jpg">
+        </div>
+        <div class="cetalog-de">
+           <p style="padding-bottom: 6px;"> Home / Shirt</p>
+           <h2 > white printed shirt by NOSTRA</h2>
+           <label>price :</label><h4 style="padding-bottom: 6px;"> LK 4500.00</h4>
+           <label>Select Size</label>
+           <select>
+               <option>Small</option>
+               <option>Medium</option>
+               <option>Large</option>
+               <option>XL</option>
+               <option>XXL</option>
+           </select>
+           <label style="padding-left: 20px;">Quantity</label>
+           <input type="number" value="1" min="1">
+           <button class="cetalog-btn"><a href="payment.html">Add To Cart</a></button>
+
+           <h4 style="padding-top: 10px;">Prodect Details</h4>
+           <p> Give your summer waedobe astyle upgrad whit tha NOSTRA Men's Ative Shirt</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="products" id="products">
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 1.jpg" alt="">
+            <p>White Shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 3.webp" alt="">
+            <p>Cargo Pants</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 2.avif" alt="">
+            <p>Black Shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 7.jpg" alt="">
+            <p>Air force 1 Shoes</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 9.jpg" alt="">
+            <p>Polo t-shirt</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 4.jpg" alt="">
+            <p>Blue denim jeans</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 11.avif" alt="">
+            <p>Gray Pants</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 5.webp" alt="">
+            <p>NB Shoes</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 12.jpg" alt="">
+            <p>Blue Shirts</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 10.webp" alt="">
+            <p>Formal black pants</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 6.avif" alt="">
+            <p>Nike Shoes</p>
+        </div>
+
+        <div class="product-box">
+            <img src="/Images/collction img/cl img 8.avif" alt="">
+            <p>Oxford Shoes</p>
+        </div>
+
+
+    </div>
+
+
+     
+
+    
+
+    <!--footer-
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="heading-text">Nostra</h2>
+                <p>. || FASHION THAT CAPTURE YOUR IMAGINATION  || .<br>
+                    Fashion trends are done to look good and create a good impression</p>
+                <div>
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                    <i class="fa-brands fa-twitter" style="color:white;"></i>
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+        <p>Nostra@gmail.com</p>
+    </div>
+-->
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.menu-toggel {
+    display: none;
+}
+
+/* side navbar*/
+.side-navbar {
+    background-color: #1d232c;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    padding: 20px;
+    color: white; 
+    transition: 2s;
+}
+
+.side-link {
+    margin-bottom: 30px;
+}
+
+.side-link a {
+    text-decoration: none;
+    color: white;
+}
+
+/* hedder*/
+.heder {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.hed-btn {
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    background-color: #1d232c;
+    color: white;
+    cursor: pointer;
+
+}
+
+.service {
+    padding: 20px;
+}
+
+.srv-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.srv-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.srv-container-2 div {
+    background-color: #f2f4f7;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.new-arrival {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.new-arrival-contaner {
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button {
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    color: #1d232c;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-arrival img {
+    border-radius: 10px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input {
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+
+.news button {
+    margin-top: 10px;
+    color: #f2f4f7;
+    background-color: #1d232c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.news p {
+    margin-bottom: 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: #f2f4f7;
+}
+
+.product-section {
+    margin-top: 20px;
+}
+
+.product-search {
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.product-search input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus {
+    outline: none;
+}
+
+
+.products {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-box {
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.product-box img {
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #1d232c;
+    color: #f2f4f7;
+    width: 55%;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+.name label {
+    padding-bottom: 4px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+
+}
+
+.name-box {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.message-box {
+    width: 70%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.contact button {
+    margin-left: 43%;
+    padding: 5px 20px 5px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5%;
+}
+
+
+
+/* cetalog card*/
+.cetalog{
+    display: flex;
+    margin: 130px 20% 145px 20%;
+}
+
+.cetalog-de{
+     padding-left: 20px;
+     
+}
+
+.cetalog-btn{
+    padding: 10px 20px 10px 20px;
+    background-color: #1d232c;
+    color: white;
+    border-radius: 50px;
+    border: solid;
+    margin-left: 20px;
+
+}
+
+.cetalog-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* cetalog buttun*/
+.new-arrival-contaner a{
+text-decoration: none;
+color: black;
+}
+
+/* media query */
+@media screen and (max-width:700px) {
+    .menu-toggel {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hed-img {
+        display: none;
+    }
+
+    .srv-container-1 {
+        display: none;
+    }
+
+    .srv-container-2 {
+        flex-direction: column;
+    }
+}
+
+
+    
